@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Qonto</title>
+    <script src="index.js" async type="text/javascript"></script>
+    <link rel="stylesheet" href="/assets/phosphor.css"/>
+</head>
+<body>
+
+<!-- Header BEGIN   -->
+<header class="bg-[#e3f7ee]  ">
+    <!-- NavBar BEGIN   -->
+    <nav class="flex items-center justify-between px-2 border-b border-neutral-400 lg:px-8 py-2 bg-white   ">
+
+        <div class="lg:flex lg:gap-16">
+            <h1 class="text-4xl font-medium w-full  ">Qonto</h1>
+            <ul class=" lg:flex lg:items-center lg:gap-5 text-xl lg:static absolute left-0  w-full lg:mt-0 lg:px-0  lg:h-auto px-4  bg-white  lg:bg-transparent shadow-lg lg:bg-none lg:transition-none lg:top-auto lg:shadow-none -top-[90rem] lg:opacity-100  opacity-0 ease-in-out duration-500 h-full   "
+                id="navLinks">
+                <li class="lg:p-0 py-3 cursor-pointer ">Business
+                    <div class=" lg:hidden pt-3 border-b border-neutral-400"></div>
+                </li>
+                <li class=" lg:p-0 py-3 cursor-pointer">Company
+                    <div class=" lg:hidden pt-3 border-b border-neutral-400"></div>
+                </li>
+                <li class="lg:p-0 py-3 cursor-pointer">Services
+                    <div class=" lg:hidden pt-3 border-b border-neutral-400"></div>
+                </li>
+                <li class="lg:p-0 py-3 cursor-pointer">Pricing
+                    <div class=" lg:hidden pt-3 border-b border-neutral-400"></div>
+                </li>
+
+
+                <div class="grid gap-5 lg:hidden py-3 ">
+                    <button class="text-xl border p-3 rounded-md border-[#141412]">Sign in</button>
+                    <button class="bg-[#141412] p-3 text-white rounded-md font-light text-lg ">Open an account</button>
+                </div>
+            </ul>
+        </div>
+
+
+        <div class="flex items-center ">
+            <div class="lg:flex lg:items-center  lg:gap-10 hidden    ">
+                <h1 class="text-xl cursor-pointer">Sign in</h1>
+                <button class="bg-[#141412] hover:bg-neutral-700 transition-colors duration-300 px-6 py-4 text-white rounded-md font-light text-lg ">Open an account
+                </button>
+            </div>
+
+            <div class="flex items-center lg:hidden">
+                <i class="ph-list  cursor-pointer text-5xl" id="hamburgerIcon"></i>
+            </div>
+
+
+        </div>
+    </nav>
+    <!-- NavBar END   -->
+
+    <div class=" max-w-screen-xl  mx-auto lg:flex lg:justify-between lg:items-center lg:py-20 px-2  gap-10 ">
+        <div class="lg:w-[500px]">
+            <h1 class=" text-4xl    md:text-6xl leading-tight ">The account that powers up your business</h1>
+
+            <div class="text-xl font-light leading-10 py-4">
+                <div class="flex items-center gap-2">
+                    <i class="ph-check-thin text-3xl "></i>
+                    <h2>Payments that <span class="font-semibold">work for you.</span></h2>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="ph-check-thin text-3xl "></i>
+                    <h2>Expense management, <span class="font-semibold">managed.</span></h2>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="ph-check-thin text-3xl "></i>
+                    <h2>Book keeping and admin dealt with, <span class="font-semibold">faster.</span></h2>
+                </div>
+
+            </div>
+
+            <div class="py-3 lg:flex grid lg:flex-row gap-6 text-center  ">
+                <div class="bg-[#141412] px-3 py-4 text-white rounded-md font-light text-lg cursor-pointer shrink-0 hover:bg-neutral-700 transition-colors duration-300  ">
+                    Choose a
+                    subscription
+                </div>
+                <div class=" border border-[#141412] px-6 py-4 text-white rounded-md font-light text-lg text-black cursor-pointer shrink-0   ">
+                    Discover our
+                    solutions
+                </div>
+            </div>
+
+            <h3 class="text-gray-600">Try it 30 days. For free. No obligations.</h3>
+        </div>
+
+        <div class="grid justify-items-center">
+            <img src="/assets/image-header.png" class="py-5  ">
+        </div>
+    </div>
+</header>
+<!-- Header END   -->
+
+<!-- SECTION 1 BEGIN   -->
+<div class="max-w-screen-xl mx-auto  px-2">
+    <!-- Trusted BEGIN   -->
+    <div class="lg:flex lg:items-center lg:justify-between grid gap-8 justify-items-center  my-10 py-10 relative">
+        <h1 class="text-2xl text-center">Trusted by 250,000 businesses</h1>
+        <div class="grid  md:grid-cols-3 gap-10">
+            <div>
+                <div class="flex items-end gap-2">
+                    <div class="order-2 grid justify-items-center items-center ">
+                        <div class="text-2xl">
+                            <i class="ph-star-fill"></i>
+                            <i class="ph-star-fill"></i>
+                            <i class="ph-star-fill"></i>
+                            <i class="ph-star-fill"></i>
+                            <i class="ph-star-fill"></i>
+                        </div>
+
+                        <h1 class="text-lg">4.8 on Apple Store</h1>
+                    </div>
+
+                    <i class="ph-apple-logo-fill pb-1 text-2xl"></i>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-end gap-2">
+                    <div class="order-2 grid justify-items-center items-center ">
+                        <div class="text-2xl">
+                            <i class="ph-star-fill "></i>
+                            <i class="ph-star-fill "></i>
+                            <i class="ph-star-fill "></i>
+                            <i class="ph-star-fill "></i>
+                            <i class="ph-star-fill text-gray-300"></i>
+                        </div>
+
+                        <h1 class="text-lg">4.8 on Play Store</h1>
+                    </div>
+
+                    <i class="ph-google-play-logo pb-1 text-2xl"></i>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-end gap-2">
+                    <div class="order-2 grid justify-items-center items-center ">
+                        <div class="text-2xl">
+                            <i class="ph-star-fill "></i>
+                            <i class="ph-star-fill "></i>
+                            <i class="ph-star-fill "></i>
+                            <i class="ph-star-fill text-gray-300"></i>
+                            <i class="ph-star-fill text-gray-300"></i>
+                        </div>
+
+                        <h1 class="text-lg ">4.8 on Apple Store</h1>
+                    </div>
+
+                    <i class="ph-star text-2xl pb-1 text-2xl "></i>
+                </div>
+            </div>
+        </div>
+        <div class=" lg:h-[1px] lg:bg-neutral-500 lg:absolute lg:w-full right-0 lg:bottom-0  "></div>
+    </div>
+    <!-- Trusted END   -->
+
+    <!-- Whatever BEGIN   -->
+    <div class="max-w-screen-xl mx-auto py-10  ">
+
+        <h1 class="text-4xl text-center pb-10 ">Whatever your size, we're the right fit.</h1>
+
+        <div class=" lg:grid lg:gap-10 relative ">
+            <div class="md:grid  lg:grid-cols-2 lg:max-w-[1200px] gap-2 lg:gap-10 mx-auto relative   py-5 ">
+                <div class=" md:flex justify-center  ">
+                    <img src="/assets/freelancers.png" class=" mx-auto md:mx-0 ">
+                    <div class="md:w-80 grid  mx-auto md:mx-0 text-center md:text-left  ">
+                        <h1 class="text-2xl ">Freelancers</h1>
+                        <div class="sm:w-96 md:w-auto md:mx-0 mx-auto">
+                            Less time on admin. More time for missions. Because when you're alone, efficiency matters.
+                        </div>
+                        <div class="flex items-center mx-auto md:mx-0"> <a href="#">Find out more
+                        </a><i class="ph-arrow-right ml-2"></i></div>
+                    </div>
+                </div>
+
+                <div class=" lg:absolute h-full w-[1px] bg-neutral-500 left-[50%] right-[50%] "></div>
+
+                <div class=" md:flex  justify-center ">
+                    <img src="/assets/startup.png" class=" mx-auto md:mx-0">
+                    <div class="md:w-80 grid  mx-auto md:mx-0 text-center md:text-left  ">
+                        <h1 class="text-2xl ">SMEs and Startups</h1>
+                        <div class="sm:w-96 md:w-auto md:mx-0 mx-auto">
+                            Bring order to team expenses. Bring an end to messy finances.
+                        </div>
+                        <div class="flex items-center mx-auto md:mx-0"> <a href="#">Find out more
+                        </a><i class="ph-arrow-right ml-2"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="  lg:absolute h-[1px] lg:w-[600px] lg:bg-neutral-500 right-[52%] top-[50%]  "></div>
+            <div class="  lg:absolute h-[1px] lg:max-w-[600px] lg:bg-neutral-500 left-[52%] right-0  top-[50%]  "></div>
+
+            <div class="grid lg:grid-cols-2 lg:max-w-[1200px] gap-2 lg:gap-10 mx-auto py-5 relative ">
+                <div class=" md:flex  justify-center ">
+                    <img src="/assets/founders.png" class=" mx-auto md:mx-0">
+                    <div class="md:w-80 grid  mx-auto md:mx-0 text-center md:text-left  ">
+                        <h1 class="text-2xl ">New business founders</h1>
+                        <div class="sm:w-96 md:w-auto md:mx-0 mx-auto ">
+                            Open an account and deposit share capital. All at once. All online.
+
+                        </div>
+                        <div class="flex items-center mx-auto md:mx-0"> <a href="#">Find out more
+                        </a><i class="ph-arrow-right ml-2"></i></div>
+                    </div>
+                </div>
+
+                <div class=" lg:absolute h-full w-[1px] bg-neutral-500 left-[50%] right-[50%]  "></div>
+                <div class=" md:flex justify-center ">
+                    <img src="/assets/association.png" class=" mx-auto md:mx-0">
+                    <div class="md:w-80 grid  mx-auto md:mx-0 text-center md:text-left  ">
+                        <h1 class="text-2xl ">Associations</h1>
+                        <div class="sm:w-96 md:w-auto md:mx-0 mx-auto">
+                            Manage donations, membership fee and expenses. With a few taps of your finger.
+                        </div>
+                        <div class="flex items-center mx-auto md:mx-0"> <a href="#">Find out more
+                        </a><i class="ph-arrow-right ml-2"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Whatever END   -->
+</div>
+<!-- SECTION 1 END   -->
+
+
+<!-- SECTION 2 BEGIN   -->
+<div class=" py-10 px-2 bg-[#1d1d1b] text-white">
+    <!-- Boosting BEGIN   -->
+    <div>
+        <h1 class="text-4xl text-center pb-10 ">Boosting businesses. Today and tomorrow</h1>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-20 max-w-screen-xl   mx-auto ">
+            <div class="grid gap-5 text-center">
+                <img src="/assets/protect.png" class="mx-auto w-16">
+                <h2 class="text-3xl">Secure</h2>
+                <div class="text-lg">
+                    Your funds are protected according to the applicable rules and regulations.
+                </div>
+            </div>
+
+            <div class="grid gap-5 text-center">
+                <img src="/assets/transparent.png" class="mx-auto w-16">
+                <h2 class="text-3xl">Transparent</h2>
+                <div class="text-lg">
+                    We mean it: no hidden fees, no transfer commissions, no obligations.
+                </div>
+            </div>
+
+
+            <div class="grid gap-5 text-center">
+                <img src="/assets/stack.png" class="mx-auto w-16">
+                <h2 class="text-3xl">All-in-one</h2>
+                <div class="text-lg">
+                    It's what they all say. But with Qonto, there really is no need for other platforms.
+                </div>
+            </div>
+
+            <div class="grid gap-5 text-center">
+                <img src="/assets/talk.png" class="mx-auto w-16">
+                <h2 class="text-3xl">At your service</h2>
+                <div class="text-lg ">
+                    Questions come at any time. We're here 7 days a week to answer them.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- SECTION 2 END   -->
+
+<!-- SECTION 3 BEGIN   -->
+<div class="max-w-screen-xl py-20 px-2 mx-auto">
+    <!-- Switch  BEGIN   -->
+    <div class="lg:flex lg:items-center justify-between">
+        <img src="/assets/qonto-switch.png" class=" lg:pr-20  mx-auto lg:mx-0">
+        <div class="grid gap-10 max-w-3xl text-xl  leading-10 md:mx-auto lg:mx-0">
+            <h1 class=" text-center lg:text-left text-5xl py-5 lg:p-0">Switch to Qonto. Without a worry.</h1>
+            <div>
+                <div class="flex items-start gap-2">
+                    <i class="ph-check-thin text-3xl "></i>
+                    <h2>Transfer your business account just as you would with your personal bank.</h2>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="ph-check-thin text-3xl "></i>
+                    <h2>Time is precious. Paperwork is not.</h2>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="ph-check-thin text-3xl "></i>
+                    <h2>Our team will help you switch accounts with zero fuss.</h2>
+                </div>
+            </div>
+            <button class="bg-[#141412] px-2 py-4 text-white rounded-md font-light text-xl lg:w-72 hover:bg-neutral-700 transition-colors duration-300 ">Switch account in
+                minutes
+            </button>
+        </div>
+    </div>
+    <!-- Switch  END   -->
+</div>
+<!-- SECTION 3 END   -->
+
+<!-- SECTION 4 BEGIN   -->
+<div class=" py-10 px-2 bg-[#eee9fd]">
+    <!-- Spend  BEGIN   -->
+    <div class="lg:grid lg:grid-cols-2 lg:items-center gap-10 max-w-screen-xl mx-auto">
+        <div class="grid gap-10 max-w-3xl   leading-10 md:mx-auto">
+            <h1 class=" text-center lg:text-left text-5xl py-5 lg:p-0">Spend smarter. Spend together</h1>
+
+            <div class="leading-normal text-xl font-light">
+                <h2><span class="font-semibold">Bring harmony to team expenses</span> with budget limits and real-tim
+                    monitoring. Freedom for your staff. Peace of mind for you</h2>
+            </div>
+
+            <button class="bg-[#141412] px-2 py-4 text-white rounded-md font-light text-xl lg:w-72 hover:bg-neutral-700 transition-colors duration-300 ">Make expenses work
+                for you
+            </button>
+        </div>
+        <img src="/assets/expense-img.png" class=" mx-auto  lg:w-full pt-10 lg:p-0   ">
+    </div>
+    <!-- Spend  END   -->
+</div>
+<!-- SECTION 4 END   -->
+
+<!-- SECTION 5 BEGIN   -->
+<div class=" py-10 px-2 max-w-screen-xl mx-auto   ">
+    <!-- Real-time   BEGIN   -->
+    <div class="lg:grid lg:grid-cols-2 lg:items-center gap-10 max-w-screen-xl mx-auto relative lg:pb-24 ">
+        <img src="/assets/fingertips.png" class=" mx-auto lg:w-full pb-10 lg:p-0   ">
+        <div class="grid gap-10 max-w-3xl   leading-10 md:mx-auto">
+            <h1 class=" text-center lg:text-left text-5xl py-5 lg:p-0">Real-time accounting.<br class=" block"> At your
+                fingertips.</h1>
+
+            <div class="leading-normal text-xl font-light">
+                <h2>You know accounting can be tedious. Our <span class="font-semibold">automated tools </span>make it
+                    swift intuitive. Giving you more time to focus on what matters.</h2>
+            </div>
+
+            <button class="bg-white border border-[#141412] px-2 py-4 text-black rounded-md font-light text-xl lg:w-72 ">
+                Automate your accounting
+            </button>
+        </div>
+        <div class=" lg:h-[1px] lg:bg-neutral-500 lg:absolute lg:w-full right-0 lg:bottom-0  "></div>
+    </div>
+    <!-- Real-time   END   -->
+
+    <!-- Let's get   BEGIN   -->
+    <div class="py-10">
+
+        <h1 class=" text-center text-5xl py-5">Let's get started</h1>
+        <div class="lg:grid lg:grid-cols-2 lg:items-center gap-10 max-w-screen-xl mx-auto relative lg:pb-24  ">
+            <img src="/assets/gate.png" class=" mx-auto lg:w-full pb-10 lg:p-5   ">
+            <div class="grid  max-w-3xl leading-10 md:mx-auto  text-3xl font-light ">
+                <div class="relative">
+                    <div class="flex gap-14 items-center py-8">
+                        <h2 class="font-normal text-5xl">01</h2>
+                        <div>Sign up in a few minutes</div>
+                    </div>
+                    <div class=" h-[1px] bg-neutral-500 lg:absolute w-full right-0 bottom-0  "></div>
+                </div>
+
+                <div class="relative">
+                    <div class="flex gap-14 items-center py-8">
+                        <h2 class="font-normal text-5xl">02</h2>
+                        <div>Let us verify your identity</div>
+                    </div>
+                    <div class=" h-[1px] bg-neutral-500 lg:absolute w-full right-0 bottom-0 "></div>
+                </div>
+
+                <div>
+                    <div class="flex gap-14 items-center py-8">
+                        <h2 class="font-normal text-5xl">03</h2>
+                        <div>Your account is open, you can send your first payment</div>
+                    </div>
+                </div>
+
+
+                <button class="bg-[#1d1d1b]  px-2 py-4 mt-10 text-white rounded-md font-light text-xl lg:w-72 hover:bg-neutral-700 transition-colors duration-300 ">Open an
+                    account in minutes
+                </button>
+                <h3 class="text-gray-600 text-base pt-5">Try it 30 days. For free. No obligations.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Let's get   END   -->
+</div>
+<!-- SECTION 5  END   -->
+
+
+<!-- SECTION 6 BEGIN   -->
+<div class=" py-10 px-2 bg-[#ffeadd] text-black">
+    <!-- Every day  BEGIN   -->
+    <div>
+        <h1 class="text-5xl text-center pb-10 ">Everyday payments. Without the everyday hassles.</h1>
+        <div class="grid lg:grid-cols-3  gap-5 max-w-screen-xl  mx-auto justify-items-center     ">
+
+            <div class="md:flex md:items-center gap-10 lg:block text-center md:text-left">
+                <img src="/assets/finance.png" class="mx-auto my-10 ">
+                <div class="lg:mx-10 ">
+                    <div class="md:w-[450px] lg:w-auto mx-auto ">
+                        <h2 class="text-2xl font-medium pb-5 lg:h-12 ">Tools that keep you in control</h2>
+                        <div class="text-xl font-light lg:h-56 lg:pt-10 ">
+                            Your online business account with an unlimited, real-time transaction history.
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 justify-center md:justify-start">
+                        <div class=" relative pb-1 ">
+                            Get real visibility over finances
+                            <div class=" h-[2px] bg-neutral-500 lg:absolute w-full right-0 bottom-0 "></div>
+                        </div>
+                        <i class="ph-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:flex md:items-center gap-10 lg:block text-center md:text-left  ">
+                <img src="/assets/payment.png" class="mx-auto my-10 md:w-60 lg:w-auto">
+                <div class="lg:mx-10   ">
+                    <div class="md:w-[450px] lg:w-auto mx-auto   ">
+                        <h2 class="text-2xl font-medium pb-5 lg:h-12">Payment methods you want</h2>
+                        <div class="text-xl font-light lg:h-56 lg:pt-10  ">
+                            Whether you need to work with transfers, direct debits, Mastercards or mobile payments.
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 justify-center md:justify-start ">
+                        <div class=" relative pb-1">
+                            Get real visibility over finances
+                            <div class=" h-[2px] bg-neutral-500 lg:absolute w-full right-0 bottom-0 "></div>
+                        </div>
+                        <i class="ph-arrow-right"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="md:flex md:items-center gap-10 lg:block text-center md:text-left">
+                <img src="/assets/ticket.png" class="mx-auto my-10 ">
+                <div class="lg:mx-10 ">
+                    <div class="md:w-[450px]  lg:w-auto mx-auto  ">
+                        <h2 class="text-2xl font-medium pb-5 ">Seriously simple team spending</h2>
+                        <div class="text-xl font-light lg:h-48  ">
+                            Order Mastercards for your employees and track spending in real time. Au revoir expense
+                            reports. Ciao, ciao paper receipts.
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 justify-center md:justify-start  ">
+                        <div class=" relative pb-1">
+                            Give your teams what they need
+                            <div class=" h-[2px] bg-neutral-500 lg:absolute w-full right-0 bottom-0 "></div>
+                        </div>
+                        <i class="ph-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- SECTION 6 END   -->
+
+<!-- FOOTER BEGIN   -->
+<footer class=" py-10 bg-[#f9f9f9] ">
+    <div class="max-w-screen-xl mx-auto px-2 relative">
+        <div class="grid lg:grid-cols-footer gap-5       ">
+            <div class="flex flex-col text-center lg:text-left gap-7 ">
+                <h1 class="text-6xl font-medium   ">Qonto</h1>
+                <div>
+                    <div class="text-2xl font-medium">Customer service</div>
+                    <div class="text-xl font-light">7/7 support by chat, phone or email</div>
+                </div>
+                <div>
+                    <div class="text-5xl">
+                        <i class="ph-star-fill "></i>
+                        <i class="ph-star-fill "></i>
+                        <i class="ph-star-fill "></i>
+                        <i class="ph-star-fill "></i>
+                        <i class="ph-star-fill text-gray-300"></i>
+                    </div>
+                    <div class="text-sm font-light">4.6 on Trustpilot | 6240 reviews</div>
+                </div>
+            </div>
+
+            <div class="grid gap-5  md:gap-0 md:grid-cols-3 md:justify-items-center lg:justify-items-start py-7 ">
+                <div class="md:border-none  border-b border-neutral-500 pb-2 ">
+                    <div class="flex md:block justify-between items-start ">
+                        <h1 class="text-lg font-medium mb-3 ">The Qonto offer</h1>
+                        <div class="md:hidden">
+                            <i class="ph-caret-circle-down text-2xl cursor-pointer -rotate-180 duration-500 " id="qontoCollapse"></i>
+                        </div>
+                    </div>
+                    <div class=" grid gap-3 md:grid max-h-0 overflow-hidden md:max-h-full md:overflow-visible transition-all duration-500 ease-in-out " id="qontoPanel">
+                        <div class="inline"><a href="#" >Pricing</a></div>
+                        <div class="inline"><a href="#" class="inline">Mastercard Business Cards</a></div>
+                        <div class="inline"><a href="#">Payment methods</a></div>
+                        <div class="inline"><a href="#">Team</a></div>
+                        <div class="inline"><a href="#">Accounting</a></div>
+                        <div class="inline"><a href="#">Multi Account</a></div>
+                        <div class="inline"><a href="#">Share capital deposit</a></div>
+                        <div class="inline"><a href="#">Connections</a></div>
+                        <div class="inline"><a href="#">Apple Pay</a></div>
+                        <div class="inline"><a href="#">Google Pay</a></div>
+                    </div>
+
+                </div>
+
+                <div class="md:border-none  border-b border-neutral-500 pb-2 ">
+
+                    <div class="flex md:block justify-between items-start ">
+                        <h1 class="text-lg font-medium mb-3 ">Tools</h1>
+                        <div class="md:hidden">
+                            <i class="ph-caret-circle-down text-2xl cursor-pointer -rotate-180 duration-500 " id="toolsCollapse"></i>
+                        </div>
+                    </div>
+                    <div class=" grid gap-3  md:grid max-h-0 overflow-hidden md:max-h-full md:overflow-visible  duration-500 ease-in-out" id="toolsPanel">
+                        <div class="inline"><a href="#">Banking comparators</a></div>
+                        <div class="inline"><a href="#">Transfer account</a></div>
+                        <div class="inline"><a href="#">Company creation</a></div>
+                        <div class="inline"><a href="#">API</a></div>
+                    </div>
+                </div>
+
+                <div class="md:border-none  border-b border-neutral-500 pb-2">
+                    <div class="flex md:block justify-between items-start ">
+                        <h1 class="text-lg font-medium mb-3 ">About</h1>
+                        <div class="md:hidden">
+                            <i class="ph-caret-circle-down text-2xl cursor-pointer -rotate-180 duration-500 " id="aboutCollapse"></i>
+                        </div>
+                    </div>
+                    <div class="grid gap-3  md:grid max-h-0 overflow-hidden md:max-h-full md:overflow-visible transition-all duration-500 ease-in-out" id="aboutPanel">
+                        <div class="inline"> <a href="#">Our story</a></div>
+                        <div class="inline"><a href="#">Our customers</a></div>
+                        <div class="inline"><a href="#">Careers</a></div>
+                        <div class="inline"><a href="#">Blog</a></div>
+                        <div class="inline"><a href="#">Financial Glossary</a></div>
+                        <div class="inline"><a href="#">Customer support</a></div>
+                        <div class="inline"><a href="#">Become a partner</a></div>
+                        <div class="inline"><a href="#">Affiliate program</a></div>
+                        <div class="inline"><a href="#">Referral program</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- COUNTRY DROPDOWN    -->
+        <div class="absolute right-0 top-0 w-full ">
+            <div class="flex items-center gap-2 absolute  right-2 top-0">
+                <div class="flex items-center gap-2"><img src="/assets/leurope.png" width="20"> EN</div>
+                <i class="ph-caret-circle-down text-2xl cursor-pointer -rotate-180 duration-500" id="country-option"></i>
+            </div>
+
+            <div class="grid gap-1 absolute right-5 top-10 hidden font-light text-base p-3 bg-white " id="country-list">
+                <div class="flex items-center gap-2"><img src="/assets/leurope.png" width="18"> <a href="#en">Europe
+                    (EN)</a></div>
+                <div class="flex items-center gap-2"><img src="/assets/la-france.png" width="18"> <a href="#fr">France
+                    (FR)</a></div>
+                <div class="flex items-center gap-2"><img src="/assets/allemagne.png" width="18"> <a href="#de">Deutschland
+                    (DE)</a></div>
+                <div class="flex items-center gap-2"><img src="/assets/espagne.png" width="18"> <a href="#es">España
+                    (ES)</a></div>
+                <div class="flex items-center gap-2"><img src="/assets/italie.png" width="18"> <a href="#it">Italia
+                    (IT)</a></div>
+                <div class="flex items-center gap-2"><img src="/assets/allemagne.png" width="18"> <a href="#en">Germany
+                    (EN)</a></div>
+            </div>
+        </div>
+        <!-- COUNTRY DROPDOWN END   -->
+
+    </div>
+
+</footer>
+
+<!-- FOOTER END   -->
+
+</body>
+</html>
