@@ -1,1 +1,0 @@
-# qonto-landing-page
