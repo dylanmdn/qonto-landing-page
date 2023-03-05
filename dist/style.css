@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.show-menu {
+    top: 65px;
+    opacity: 100%;
+}
+
+.show-contry-list {
+    display: grid;
+}
+
+.icon-rotate {
+    rotate: 180deg;
+    transition-duration: 0.5s;
+}
+
+
+
+
+.panel {
+    transition: max-height 0.5s ease-in-out;
+}
+
+
+
